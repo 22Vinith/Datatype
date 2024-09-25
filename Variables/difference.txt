@@ -1,0 +1,7 @@
+Feature           	var       	                     let         	            const
+---------------------------------------------------------------------------------------------
+Scope	        Function-scoped	                     Block-scoped  	            Block-scoped
+Hoisting	    Yes (initialized as undefined)	     Yes (but not initialized)	Yes (but not initialized)
+Re-declaration	Allowed	                             Not allowed	            Not allowed
+Reassignment	Allowed	                             Allowed	                Not allowed (reference can't change)
+Initialization	Optional	                         Optional	                Required during declaration
