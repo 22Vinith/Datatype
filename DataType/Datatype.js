@@ -37,6 +37,10 @@ let emptyValue = null;
 // A unique and immutable primitive value, often used as object property keys.
 let uniqueId = Symbol('id');
 
+//g. BigInt
+//BigInt can represent integers of arbitrary precision, making it useful for applications that require very large numbers, such as cryptography, large computations, or precise financial calculations.
+const bigInt1 = BigInt(123456789012345678901234567890);
+
 //------------------------------------------------------------------------------------------------------------------------------------
 
 // 2. Reference Data Types
