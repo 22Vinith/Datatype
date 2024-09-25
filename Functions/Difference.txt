@@ -1,0 +1,9 @@
+Feature         	Regular Function	                                        Arrow Function
+-----------------------------------------------------------------------------------------
+Syntax            	Uses function keyword, more verbose	                  More concise, uses => syntax
+this Binding	    Dynamic, based on how the function is calle           Lexically bound to the context where it's defined
+Constructor	        Can be used as a constructor (new keyword)	          Cannot be used as a constructor (new will throw an error)
+ Object	            Has access to the arguments object	                  No arguments object, can use rest parameters (...args)
+Use in Methods	    Binds this to the object when used as a method	      Inherits this from the surrounding context (not the object)
+Return Statements	Requires return keyword for multi-line code   	      Implicit return for single-line expressions
+Hoisting	        Hoisted to the top of their scope	                  Not hoisted, must be defined before use
