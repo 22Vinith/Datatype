@@ -8,7 +8,8 @@ function outer() {
   let outerVariable = "I'm from outer!";
 
   function inner() {
-    console.log(outerVariable);  // Accessing variable from outer function
+    console.log(outerVariable); 
+   // Accessing variable from outer function
   }
 
   return inner;  // Returning the inner function
